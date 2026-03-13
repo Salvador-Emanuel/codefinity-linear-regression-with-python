@@ -33,4 +33,4 @@ print("Train RMSE:", train_rmse)
 print("Test RMSE:", test_rmse)
 
 # 7. Print summary
-print(model.params)
+print(model.summary())
